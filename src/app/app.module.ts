@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { CounterListComponent } from './counter-list/counter-list.component';
 import { CounterDetailComponentComponent } from './counter-detail-component/counter-detail-component.component';
 import { SupercounterDetailComponent } from './supercounter-detail/supercounter-detail.component';
+import { SuperdupercounterDetailComponent } from './superdupercounter-detail/superdupercounter-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CounterListComponent,
     CounterDetailComponentComponent,
-    SupercounterDetailComponent
+    SupercounterDetailComponent,
+    SuperdupercounterDetailComponent
   ],
   imports: [
     BrowserModule,

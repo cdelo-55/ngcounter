@@ -1,7 +1,9 @@
 <div class="py-5">
     <h2>{{ name }}</h2>
-    <button class="btn btn-primary" (click)="create()">Create</button>
+    <button class="btn btn-primary btn-lg" (click)="create()">Create</button>
 </div>
+<superdupercounter *ngFor="let supdupCnt of superdupercounters"[superdupercounter]="supdupCnt">
+</superdupercounter>
 <supercounter *ngFor="let superCnt of supercounters"[supercounter]="superCnt">
 </supercounter>
 <counter *ngFor="let counter of counters" [counter]="counter">   
