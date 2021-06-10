@@ -5,7 +5,7 @@ import { Superdupercounter } from '../superdupercounter';
 
 
 @Component({
-  selector: 'app-counter-list',
+  selector: 'counter-list',
   templateUrl: './counter-list.component.html',
   styleUrls: ['./counter-list.component.css']
 })
